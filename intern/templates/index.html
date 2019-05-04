@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block body %}
+  <!-- <table class="table table-responsive"> -->
+   <table class="table table-dark table-striped">
+    <thead>
+      <br>
+      <tr>
+        <th scope="col">Id</th>
+        <th></th>
+        <th scope="col">TASK</th>
+        <th></th>
+        <th scope="col">DUE DATE</th>
+        <th></th>
+        <th scope="col">STATUS</th>
+        <th></th>
+        <th scope='col'>EDIT STATUS </th>
+        <!-- <th>STATUS</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      {% for todo in todos %}
+          <tr>
+            {% for item in todo %}
+                <td>{{ item }}<td>
+            {% endfor %}
+
+            <td>
+              <form  action="/{{ todo[0] }}" method="POST">
+                  <select name="status">
+                    <option value="Not started">Not started</option>
+                    <option value="inprogress">inprogress</option>
+                    <option value="finished">finished</option>
+                  </select>
+                  <button type="submit" class="btn btn-primary">Save Status</button>
+            </form>
+          </td>
+          <!-- <td><button type="button" class="btn btn-danger">Delete</button></td> -->
+          </tr>
+      {% endfor %}
+
+  </table>
+<br>
+<a href="/new">create new todo</a>
+{% endblock %}

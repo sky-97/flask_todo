@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block body %}
+<form action="/create" method="POST">
+   <div class="form-group">
+     <label>Enter Todo Item Name : </label>
+        <input type="text" name="todo">
+            <br>
+            <label >Enter Your Task Finish date</label>
+              <input type="date" name="todo_date" max="3000-12-31" min="1000-01-01" class="form-control">
+            <br>
+              <label>Enter Your Task STATUS : </label>
+          <select name="status">
+            <option value="Not started" name="status">Not started</option>
+            <option value="inprogress"  name="status">inprogress</option>
+            <option value="finished"  name="status">finished</option>
+          </select>
+      <button type="submit">Create Todo</button>
+   </div>
+</form>
+{% endblock %}
