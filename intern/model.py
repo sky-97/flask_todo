@@ -52,7 +52,7 @@ def json_api():
     return json.dumps(list_todos)
 
 def overdue():
-    x = datetime.datetime.now().date()
+    x = datetime.now().date()
     conn = sqlite3.connect("todo.db")
     c = conn.cursor()
     duedate = c.execute("SELECT [id],[itemName],[duedate],[status] FROM tabletodo Where [duedate]<(:uname)",{'uname':x})
@@ -67,7 +67,7 @@ def overdue():
     return json.dumps(list_date)
 
 def finished():
-    x = datetime.datetime.now().date()
+    x = datetime.now().date()
     conn = sqlite3.connect("todo.db")
     c = conn.cursor()
     duedate = c.execute("SELECT [id],[itemName],[duedate],[status] FROM tabletodo Where [status] ='finished'")
