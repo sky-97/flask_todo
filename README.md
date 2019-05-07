@@ -11,8 +11,20 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ``` pip3 install flask ```
-### You just need to install flask library and for database i am gonna  use ``` sqlite3 ``` 
+### You just need to install flask library and for database i am gonna  use ``` sqlite3 ``` no need to install sqlite module It is included in the standard library (since Python 2.5)
 
+### File Structure
+
+ ``` /foldername ```
+         ``` -app.py ```
+        ```  -model.py ```
+         ``` /templates ```
+             ``` -base.html ```
+             ``` -form.html ```
+             ``` -index.html ```
+             
+      app.py is a ```controller``` in which all logics are there, model.py is a ```model``` file in which all database insert create and querry codes  are there, temaplates is a folder inside which there is ```view``` files.
+      
 ### Running the tests
 
 ```python app.py ```
@@ -27,3 +39,6 @@ http://127.0.0.1:5000/index
 
 ``` /index  ```
 #### ```/index``` is a page, in this page all your ToDo List in form of tables will appear when you add a new ToDo Task
+
+#### If you need to make a new todo task, click on ``` create new todo ``` when you click on the link you will be redirect to new page ``` /new ```, where you need to add todo task, name, date and status, then click on button ``` create todo ``` 
+#### Then you will redirect to ``` /create ``` page where will get the message database updated,when you click on return to homepage then you can see the todo list which made eariler , In index page we also have authorization to edit status of the task. 
