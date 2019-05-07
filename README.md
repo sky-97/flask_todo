@@ -41,4 +41,35 @@ http://127.0.0.1:5000/index
 #### ```/index``` is a page, in this page all your ToDo List in form of tables will appear when you add a new ToDo Task
 
 #### If you need to make a new todo task, click on ``` create new todo ``` when you click on the link you will be redirect to new page ``` /new ```, where you need to add todo task, name, date and status, then click on button ``` create todo ``` 
-#### Then you will redirect to ``` /create ``` page where will get the message database updated,when you click on return to homepage then you can see the todo list which made eariler , In index page we also have authorization to edit status of the task. 
+#### Then you will redirect to ``` /create ``` page where will get the message database updated,when you click on return to homepage then you can see the todo list which made eariler , In index page we also have authorization to edit status of the task.
+
+### How to use API?
+
+##### Basically, an API specifies how software components should interact. Additionally, APIs are used when programming graphical user interface (GUI) components. A good API makes it easier to develop a program by providing all the building blocks. A programmer then puts the blocks together.Here we getting it in form of ``` JSON ```
+
+``` /api ```
+##### In this page will get all the task inserted in database in form of key and value(JSON)
+
+``` /api/overdue ```
+
+##### In this page all the ```overdue``` status will be displyed
+
+```/api/finished ```
+
+##### In this page all the  ```finished``` status will be displayed
+
+``` /api/<date> ```
+
+##### If need to findout the status and task of the any dates then you need to add example -```/api/2019-01-01 ``` it will display that date status and task, if not avilable then it will show empty.(date year and month should be in form of ```yyyy-mm-dd```)
+
+## Built With
+ 
+ [FLask](http://flask.pocoo.org/)
+ 
+ [SQLite](https://www.sqlite.org/index.html)
+ 
+ [MVC](https://flask-diamond.readthedocs.io/en/latest/model-view-controller/)
+ 
+ [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+ 
+ [Bootstrap](https://getbootstrap.com/)
