@@ -1,6 +1,6 @@
-# flask Todo application
+# Flask Todo application
 
-Flask ToDo  is application, Which i made with help of flask, Where user can add there Task and status to help them keep track of daily obligations.
+Flask ToDo  is application, built with help of flask, Where user can add there Task and status to help them keep track of daily obligations.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ``` pip3 install flask ```
-### You just need to install flask library and for database i am gonna  use ``` sqlite3 ``` no need to install sqlite module It is included in the standard library (since Python 2.5)
+##### You just need to install flask library and for database i am gonna  use ``` sqlite3 ``` no need to install sqlite module It is included in the standard library (since Python 2.5)
 
 ### File Structure
 
