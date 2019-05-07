@@ -1,6 +1,6 @@
 # flask Todo application
 
-Flask ToDo  is application, Which i made with help of flask, Where user can a lot of choices to help them keep track of daily obligations, Here user can add task satus.
+Flask ToDo  is application, Which i made with help of flask, Where user can add there Task and status to help them keep track of daily obligations.
 
 ## Getting Started
 
