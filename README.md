@@ -72,7 +72,7 @@ http://127.0.0.1:5000/index
 
 ## Built With
  
- [FLask](http://flask.pocoo.org/)
+ [Flask](http://flask.pocoo.org/)
  
  [SQLite](https://www.sqlite.org/index.html)
  
