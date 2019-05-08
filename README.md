@@ -16,7 +16,9 @@ What things you need to install the software and how to install them
 ### File Structure
 
 ``` ├── app.py ``` 
-``` ├── model.py ```    
+
+``` ├── model.py ```
+
 ``` │ ```
     
     ├── templates
