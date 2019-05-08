@@ -4,7 +4,7 @@ Flask ToDo  is application, built with help of flask, Where user can add there T
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine .
 
 ## Prerequisites
 
@@ -15,15 +15,23 @@ What things you need to install the software and how to install them
 
 ### File Structure
 
- ``` /foldername ```
-         ``` -app.py ```
-        ```  -model.py ```
-         ``` /templates ```
-             ``` -base.html ```
-             ``` -form.html ```
-             ``` -index.html ```
-             
-      app.py is a ```controller``` in which all logics are there, model.py is a ```model``` file in which all database insert create and querry codes  are there, temaplates is a folder inside which there is ```view``` files.
+``` ├── app.py
+ 
+    ├── model.py
+    
+    │
+    
+    ├── templates
+    
+    │   ├── base.html
+    
+    │   ├── form.html
+    
+    │   └── index.html
+    
+    └── todo.db
+
+app.py is a ```controller``` in which all logics are there, model.py is a ```model``` file in which all database insert create and querry codes  are there, temaplates is a folder inside which there is ```view``` files.
       
 ### Running the tests
 
