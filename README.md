@@ -46,10 +46,10 @@ What things you need to install the software and how to install them
 http://127.0.0.1:5000/index
 
 ``` /index  ```
-#### ```/index``` is a page, in this page all your ToDo List in form of tables will appear when you add a new ToDo Task
+###### ```/index``` is a page, in this page all your ToDo List in form of tables will appear when you add a new ToDo Task
 
-#### If you need to make a new todo task, click on ``` create new todo ``` when you click on the link you will be redirect to new page ``` /new ```, where you need to add todo task, name, date and status, then click on button ``` create todo ``` 
-#### Then you will redirect to ``` /create ``` page where will get the message database updated,when you click on return to homepage then you can see the todo list which made eariler , In index page we also have authorization to edit status of the task.
+###### If you need to make a new todo task, click on ``` create new todo ``` when you click on the link you will be redirect to new page ``` /new ```, where you need to add todo task, name, date and status, then click on button ``` create todo ``` 
+###### Then you will redirect to ``` /create ``` page where will get the message database updated,when you click on return to homepage then you can see the todo list which made eariler , In index page we also have authorization to edit status of the task.
 
 ### How to use API?
 
