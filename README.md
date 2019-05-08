@@ -15,7 +15,7 @@ What things you need to install the software and how to install them
 
 ### File Structure
 
-``` ├── app.py
+``` ├── app.py ```
  
     ├── model.py
     
@@ -29,9 +29,9 @@ What things you need to install the software and how to install them
     
     │   └── index.html
     
-    └── todo.db
+    └── todo.db ```
 
-app.py is a ```controller``` in which all logics are there, model.py is a ```model``` file in which all database insert create and querry codes  are there, temaplates is a folder inside which there is ```view``` files.
+#### app.py is a ```controller``` in which all logics are there, model.py is a ```model``` file in which all database insert create and querry codes  are there, temaplates is a folder inside which there is ```view``` files.
       
 ### Running the tests
 
